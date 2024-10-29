@@ -20,7 +20,7 @@ function Header() {
         <>
             <header>
                 <div className="container">
-                    <Link to="/store">STORE</Link>
+                    <Link to="/STORE">STORE</Link>
                     <i onClick={show} className="fa-brands fa-shopify"></i>
                 </div>
             </header>
