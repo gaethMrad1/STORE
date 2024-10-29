@@ -23,7 +23,7 @@ function App() {
       <ProductContext.Provider value={values}>
         <Header />
         <Routes>
-          <Route path="/" element={<Home />}/>
+          <Route path="/store" element={<Home />}/>
           <Route path="/product/:id" element={<ViewProduct />}/>
         </Routes>
       </ProductContext.Provider>
